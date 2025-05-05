@@ -43,7 +43,7 @@ const Navbar = () => {
           <li>
             <a className="font-Ovo" href="#about">
               About me
-            </a>
+            </a>and clean 
           </li>
           <li>
             <a className="font-Ovo" href="#services">
