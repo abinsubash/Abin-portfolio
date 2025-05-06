@@ -78,23 +78,27 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
+        title: 'Netflix-Clone',
         description: 'Web Design',
+        link:'https://nexflix-react-beta.vercel.app/',
         bgImage: '/work-1.png',
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
+        title: 'E-commerce',
+        description: 'Web Design',
+        link:'https://www.linkedin.com/posts/abin-subash-59b2232ab_webdevelopment-ecommerce-firstproject-activity-7287756604790194176-4Khw?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqbAYcBWYhUkXBiC8i4mISLtvHsDOD2IAA',
         bgImage: '/work-2.png',
     },
     {
-        title: 'Photography site',
+        title: 'OLX-Clone',
         description: 'Web Design',
+        link:'https://olx-react-drab.vercel.app/',
         bgImage: '/work-3.png',
     },
     {
-        title: 'UI/UX designing',
+        title: 'Chat-Application',
         description: 'UI/UX Design',
+        link:'',
         bgImage: '/work-4.png',
     },
 ]

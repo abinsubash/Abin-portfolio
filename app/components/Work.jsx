@@ -31,6 +31,7 @@ const Work = () => {
               className="absolute inset-0 bg-cover bg-center bg-no-repeat transform 
               transition-transform duration-500 group-hover:scale-110"
               style={{ backgroundImage: `url(${project.bgImage})` }}
+              onClick={()=>project.link}
             />
             
             {/* Overlay */}
