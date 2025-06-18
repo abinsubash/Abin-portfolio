@@ -36,29 +36,24 @@ const Navbar = () => {
         </a>
         <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll ? "" : "bg-white/70 dark:bg-gray-900/70 backdrop-blur-sm shadow-sm"}`}>
           <li>
-            <a className="font-Ovo" href="#top">
-              Home
-            </a>
+            <a className="font-Ovo" href="#top">Home</a>
+          </li>
+          <li>
+            <a className="font-Ovo" href="#about">About me</a>
           </li>
           <li>
             <a className="font-Ovo" href="#about">
               About me
-            </a>
+            </a>and clean 
           </li>
           <li>
-            <a className="font-Ovo" href="#services">
-              Services
-            </a>
+            <a className="font-Ovo" href="#services">Services</a>
           </li>
           <li>
-            <a className="font-Ovo" href="#work">
-              My Work
-            </a>
+            <a className="font-Ovo" href="#work">My Work</a>
           </li>
           <li>
-            <a className="font-Ovo" href="#contact">
-              Contact me
-            </a>
+            <a className="font-Ovo" href="#contact">Contact me</a>
           </li>
         </ul>
 
