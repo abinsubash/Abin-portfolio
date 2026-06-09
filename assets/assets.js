@@ -102,6 +102,18 @@ export const workData = [
         link:'',
         bgImage: '/work-4.png',
     },
+    {
+        title: 'FastChill',
+        description: 'Full-Stack Development',
+        link:'https://fast-chill.vercel.app/',
+        bgImage: '/work-5.png',
+    },
+    {
+        title: 'CareerConnect',
+        description: 'MERN Stack',
+        link:'https://github.com/abinsubash/career-connect',
+        bgImage: '/work-6.png',
+    },
 ]
 
 export const serviceData = [

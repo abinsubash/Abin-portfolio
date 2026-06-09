@@ -35,13 +35,13 @@ const Work = () => {
             />
             
             {/* Overlay */}
-            <div className="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+            <div className="absolute inset-0 bg-black/30 opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300" />
 
             {/* Project Info Card */}
             <div 
               className="absolute left-3 right-3 bottom-3 bg-white/95 backdrop-blur-sm rounded-lg p-3 sm:p-4 
-              transform transition-all duration-500 translate-y-2 opacity-0 
-              group-hover:translate-y-0 group-hover:opacity-100 shadow-lg"
+              transform transition-all duration-500 translate-y-0 opacity-100 
+              md:translate-y-2 md:opacity-0 md:group-hover:translate-y-0 md:group-hover:opacity-100 shadow-lg"
             >
               <div className="flex items-center justify-between gap-2">
                 <div className="flex-1 min-w-0">

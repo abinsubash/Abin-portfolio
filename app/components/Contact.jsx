@@ -78,7 +78,7 @@ const Contact = () => {
             Submit 
             <Image 
               src={assets.right_arrow_white} 
-              alt="" 
+              alt="Submit arrow icon" 
               className="w-4 h-4"
             />
           </button>

@@ -14,7 +14,7 @@ const Header = () => {
         </div>
         <h3 className='flex items-center justify-center gap-2 text-xl md:text-2xl mb-4 font-Ovo text-foreground'>
           Hi! I am Abin Subash 
-          <Image src={assets.hand_icon} className='w-6 h-6 animate-wave'/>
+          <Image src={assets.hand_icon} alt='Waving hand emoji' className='w-6 h-6 animate-wave'/>
         </h3>
         <h1 className='text-3xl sm:text-5xl lg:text-[66px] font-Ovo leading-tight mb-6 text-foreground'>
           MERN Stack developer
@@ -31,10 +31,10 @@ const Header = () => {
                 flex items-center gap-2 hover:bg-primary/90 transition-colors duration-300'
             >
               Contact me 
-              <Image src={assets.right_arrow_white} className='w-4 h-4'/>
+              <Image src={assets.right_arrow_white} alt='Arrow icon' className='w-4 h-4'/>
             </a> 
             <a 
-              href="/sample-resume.pdf" 
+              href="/AbinSubash_Resume.pdf" 
               download 
               className='px-10 py-3 border rounded-full border-border 
                 flex items-center gap-2 hover:bg-accent transition-colors duration-300

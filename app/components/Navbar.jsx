@@ -24,13 +24,13 @@ const Navbar = () => {
   return (
     <div>
       <div className="fixed top-0 right-0 w-11/12 -z-10 translate-y-[-80%] dark:opacity-0 transition-opacity duration-300">
-        <Image src={assets.header_bg_color} alt="" className="w-full" />
+        <Image src={assets.header_bg_color} alt="Header background color decoration" className="w-full" />
       </div>
       <nav className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50 transition-all duration-300 ${isScroll ? 'bg-background/70 backdrop-blur-md shadow-sm' : ''}`}>
         <a href="#top">
           <Image
             src={assets.logo}
-            alt=""
+            alt="Abin's Portfolio Logo"
             className="w-28 cursor-pointer mr-14"
           />
         </a>
@@ -63,16 +63,16 @@ const Navbar = () => {
             href="#contact"
             className="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-border rounded-full ml-4 font-Ovo hover:bg-accent transition-colors"
           >
-            contact <Image alt="" src={assets.arrow_icon} className="w-3" />
+            contact <Image alt="Arrow icon" src={assets.arrow_icon} className="w-3" />
           </a>
           <button className="block md:hidden ml-3" onClick={openMenu}>
-            <Image src={assets.menu_black} alt="" className="w-6 dark:invert" />
+            <Image src={assets.menu_black} alt="Mobile menu icon" className="w-6 dark:invert" />
           </button>
         </div>
         {/* --------mobile menu --------------- */}
         <ul ref={sideMenuRef} className="flex md:hidden flex-col gap-4 py-20 px-10 fixed right-0 top-0 bottom-0 w-64 z-50 transition-transform duration-500 translate-x-64 bg-white/90 dark:bg-gray-900/90 backdrop-blur-md shadow-lg">
           <div className="absolute right-6 top-6" onClick={closeMenu}>
-            <Image className="w-5 cursor-pointer" src={assets.close_black}/>
+            <Image className="w-5 cursor-pointer" src={assets.close_black} alt="Close menu icon"/>
           </div>
           <li>
             <a onClick={closeMenu} className="font-Ovo" href="#top">
